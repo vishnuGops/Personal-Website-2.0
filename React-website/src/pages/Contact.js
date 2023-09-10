@@ -1,12 +1,12 @@
 import React from "react";
 import Header from "../components/Header";
 
-const Home = () => {
+const Contact = () => {
   return (
-    <div class="text-center">
+    <div>
       <Header />
     </div>
   );
 };
 
-export default Home;
+export default Contact;

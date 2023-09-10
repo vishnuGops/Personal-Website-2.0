@@ -1,15 +1,25 @@
 import React from "react";
-import "./Header.css";
 
 const Header = () => {
   return (
-    <header className="header">
-      <div className="logo">Your Logo</div>
-      <nav className="nav">
-        <a href="/">Home</a>
-        <a href="/about">About</a>
-        <a href="/contact">Contact</a>
-      </nav>
+    <header className="bg-gray-800 text-white p-4">
+      <div className="container mx-auto flex justify-between items-center">
+        <div className="text-2xl font-bold">VG</div>
+        <nav className="space-x-4">
+          <a href="/" className="hover:text-blue-200">
+            Home
+          </a>
+          <a href="/about" className="hover:text-blue-200">
+            About
+          </a>
+          <a href="/contact" className="hover:text-blue-200">
+            Contact
+          </a>
+          <a href="/login" className="hover:text-blue-200">
+            Login
+          </a>
+        </nav>
+      </div>
     </header>
   );
 };
